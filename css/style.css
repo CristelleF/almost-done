@@ -236,10 +236,33 @@ body{
     opacity: 0.9;
 }
 
+/* Contact */
+#contact-form h1{
+    font-size: 40px;
+    line-height: 1.2em;
+    padding-top
+}
 
-/*Footer*/
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, .contact-form textarea{
+    width:100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form input:focus, .contact-form textarea:focus{
+outline: none;
+border-color: #f7c08a;
+}
+/* Footer*/
 footer{
     text-align: center;
     padding: 20px;
+    background: #444;
+    color: white;
 
 }
