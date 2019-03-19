@@ -33,6 +33,11 @@ p {
     cursor:pointer;
 }
 
+.btn:hover{
+background: #f7c08a;
+color: #333;
+}
+
 .btn-light{
     background: #f4f4f4;
     color: #333;
@@ -167,6 +172,9 @@ body{
     line-height: 1.7em; 
 }
 /*Utility*/
+.form-group{
+    margin-bottom: 20px;
+}
 .py-1{
     padding: 10px 0;
 }
@@ -240,7 +248,6 @@ body{
 #contact-form h1{
     font-size: 40px;
     line-height: 1.2em;
-    padding-top
 }
 
 #contact-form label{
@@ -248,16 +255,22 @@ body{
     margin-bottom: 5px;
 }
 
-#contact-form input, .contact-form textarea{
+#contact-form input, #contact-form textarea{
     width:100%;
     padding: 10px;
     border: 1px #ddd solid;
 }
 
-#contact-form input:focus, .contact-form textarea:focus{
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus{
 outline: none;
 border-color: #f7c08a;
 }
+
+
 /* Footer*/
 footer{
     text-align: center;
